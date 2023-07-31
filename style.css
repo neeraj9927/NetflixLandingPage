@@ -96,6 +96,9 @@ body{
         background-position: center;
         background-repeat: no-repeat;
     } 
+    .slider_content{
+        margin: 65% 0 0 0;
+    } 
     .video-one{
         width: 75%;
         position: absolute;
