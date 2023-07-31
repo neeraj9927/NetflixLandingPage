@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <nav class="navbar">
+        <div class="container">
+          <a class="navbar-brand text-danger fw-bold fs-1" href="#">        
+            NETFLIX
+          </a>
+          <div class="ms-auto">
+            <select name="" id="" class="my-auto" style="width: 100px; height: 35px; text-align: center;">
+                <option value="english">English</option>
+                <option value="hindi">Hindi</option>
+              </select>
+              <button type="button" class="btn btn-danger">Sign In</button>
+          </div>
+        </div>
+      </nav>
+</div>
+<div class="slider">
+    <div class="container">
+        <div class="row text-light text-center">
+            <div class="col-12 slider_content">
+                <h1>Unlimited movies, TV shows and more</h1>
+                <h4>Watch anywhere. Cancel anytime.</h4>
+                <h5>Ready to watch? Enter your email to create or restart your membership.</h5>
+                <div class="input-group d-flex text-center justify-content-center align-items-center">
+                    <input placeholder="Email" type="email" class="w-50 py-3 px-2" style="background: transparent; border: 2px solid #fff; color: #fff; border-radius: 5px;">
+                    <button class="btn btn-danger py-3 mx-1">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section text-light" style="background-color: #000000;">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-md-6 d-flex justify-content-center align-items-center flex-column text-center py-5 px-5">
+                <h1 class="my-3 fw-bold">Enjoy on your TV</h1>
+                <h5 class="my-3">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h5>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex videos">
+                    <img src="images/tv.png" alt="image" class="w-100" style="position: sticky; z-index: 2;">
+                    <video autoplay playsinline muted loop class="video-one">
+                        <source src="video/video-tv-in-0819.m4v" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-three my-1 py-5" style="background-color: #000000;">
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/mobile-0819.jpg" class="w-100">
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center flex-column py-5 px-5 mt-3">
+                <h1 class="fw-bold">Download your shows to watch offline</h1>
+                <h5>Save your favourites easily and always have something to watch.</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-four my-1 py-5" style="background-color: #000000;">
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-md-6 d-flex justify-content-center align-items-center flex-column py-5 px-5 mt-3">
+                <h1 class="my-4">Watch everywhere</h1>
+                <h5>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h5>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex videos-two">
+                <img src="images/device-pile-in.png" alt="image" class="w-100" style="position: sticky; z-index: 2;">
+                <video autoplay playsinline muted loop class="video-two">
+                    <source src="video/video-devices-in.m4v" type="video/mp4">
+                </video>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-five my-1 py-5" style="background-color: #000000;">
+    <div class="container text-light">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" class="w-100">
+            </div>
+            <div class="col-md-6 d-flex justify-content-center align-items-center flex-column py-5 px-5 mt-3">
+                <h1 class="fw-bold my-3">Create profiles for kids</h1>
+                <h5>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-five my-1 pt-5 pb-1" style="background-color: #000000;">
+  <div class="container text-light">
+    <h1 class="text-center fw-bold">Frequently Asked Questions</h1>
+    <div class="row my-4">
+      <div id="accordion">
+        <h3 class="py-4" style="background-color: #2D2D2D; color: #fff;">What is Netflix?</h3>
+        <div class="text-light" style="background-color: #232323;">
+          <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+            documentaries and more – on thousands of internet-connected devices..</p>
+          <p>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price.
+            There's always something new to discover, and new TV shows and movies are added every week!</p>
+        </div>
+        <h3 class="py-4" style="background-color: #2D2D2D; color: #fff;">How much does Netflix cost?</h3>
+        <div class="text-light" style="background-color: #232323;">
+          <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly
+            fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+        </div>
+        <h3 class="py-4" style="background-color: #2D2D2D; color: #fff;">Where can I watch?</h3>
+        <div class="text-light" style="background-color: #232323;">
+          <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com
+            from your personal computer or on any internet-connected device that offers the Netflix app, including smart
+            TVs, smartphones, tablets, streaming media players and game consoles. </p>
+          <p>You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch
+            while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+        </div>
+        <h3 class="py-4" style="background-color: #2D2D2D; color: #fff;">How do I cancel?</h3>
+        <div class="text-light" style="background-color: #232323;">
+          <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account
+            online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+          <p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad
+            litora torquent per conubia nostra, per inceptos himenaeos. </p>
+        </div>
+
+        <h3 class="py-4" style="background-color: #2D2D2D; color: #fff;">What can I watch on Netflix?</h3>
+        <div class="text-light" style="background-color: #232323;">
+          <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+            originals, and more. Watch as much as you want, anytime you want.</p>
+        </div>
+
+        <h3 class="py-4" style="background-color: #2D2D2D; color: #fff;">Is Netflix good for kids?</h3>
+        <div class="text-light" style="background-color: #232323;">
+          <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+            family-friendly TV shows and films in their own space.</p>
+          <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+            content kids can watch and block specific titles you don’t want kids to see.</p>
+        </div>
+      </div>
+      <div class="text-center my-5">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <div class="input-group d-flex text-center justify-content-center align-items-center">
+          <input placeholder="Email" type="email" class="w-50 py-3 px-2"
+            style="background: transparent; border: 2px solid #fff; color: #fff; border-radius: 5px;">
+          <button class="btn btn-danger py-3 mx-1">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="" style="background-color: #000000;">
+  <footer class="text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <h2 class="text-center py-3">Questions? Call 000-800-919-1694</h2>
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
+          <ul class="list-unstyled mb-0">
+            <h5 class="text-uppercase">Links</h5>
+            <li>
+              <a href="#!" class="text-white">FAQ</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Media Centre</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Ways to Watch</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Cookie Preferences</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Speed Test</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Help Centre</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Investor Relations</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Terms of Use</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Corporate Information</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Legal Notices</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-4 mb-4 mb-md-0 text-center">
+          <h5 class="text-uppercase mb-0">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Account</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Jobs</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Privacy</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact Us</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Only on Netflix
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+      <div class="my-4">
+        <select name="" id="" class="my-auto" style="width: 100px; height: 35px; text-align: center;">
+          <option value="english">English</option>
+          <option value="hindi">Hindi</option>
+        </select>
+      </div>
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $( function() {
+          $( "#accordion" ).accordion({
+            collapsible: true
+          });
+        } );
+    </script>
+</body>
+</html>

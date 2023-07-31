@@ -1,0 +1,117 @@
+body{
+    background-color: #232323;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.slider{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)),url(/images/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.videos{
+    position: relative;
+}
+.videos-two{
+    position: relative;
+}
+.video-one{
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    z-index: 1;
+}
+.video-two{
+    width: 60%;
+    position: absolute;
+    top: 10%;
+    right: 20.5%;
+    z-index: 1;
+}
+@media (max-width:2560px) {
+    .slider_content{
+        margin: 20% 0 0 0;
+    }    
+}
+
+@media (max-width:1440px) {
+    .slider_content{
+        margin: 25% 0 0 0;
+    }    
+}
+
+@media (max-width:1024px) {
+    .slider_content{
+        margin: 30% 0 0 0;
+    }  
+    .video-one{
+        width: 340px;
+        position: absolute;
+        top: 20%;
+        right: 12%;
+        z-index: 1;
+        object-fit: cover;
+    }    
+}
+@media (max-width:768px) {
+    .slider_content{
+        margin: 30% 0 0 0;
+    } 
+    .slider{
+        width: 100%;
+        height: 100vh;
+        background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)),url(/images/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .video-one{
+        width: 255px;
+        position: absolute;
+        top: 20%;
+        right: 12%;
+        z-index: 1;
+        object-fit: cover;
+    }  
+    .video-two{
+        width: 60%;
+        position: absolute;
+        top: 10%;
+        right: 20.5%;
+        z-index: 1;
+    }
+}
+@media (max-width:629px) {
+    .slider{
+        width: 100%;
+        height: 500px;
+        background:linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)),url(/images/IN-en-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    } 
+    .video-one{
+        width: 75%;
+        position: absolute;
+        top: 20%;
+        right: 12%;
+        z-index: 1;
+        object-fit: cover;
+    }  
+    .video-two{
+        width: 65%;
+        position: absolute;
+        top: 10%;
+        right: 19%;
+        z-index: 1;
+        object-fit: cover;
+    }  
+    
+}
+
